@@ -9,5 +9,7 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">Cat Adoption</string>
+    <string name="cat_list_screen_title">Adopt a cat</string>
+    <string name="cat_detail_screen_title">Cat Details</string>
 </resources>
