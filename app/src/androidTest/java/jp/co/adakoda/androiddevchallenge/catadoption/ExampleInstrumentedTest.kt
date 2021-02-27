@@ -15,7 +15,6 @@
  */
 package jp.co.adakoda.androiddevchallenge.catadoption
 
-
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Rule

@@ -54,11 +54,13 @@ fun CatListScreen(cats: List<Cat>, onItemClicked: (cat: Cat) -> Unit) {
 
 @Composable
 fun CatList(cats: List<Cat>, onItemClicked: (cat: Cat) -> Unit) {
-    LazyColumn(content = {
-        items(cats) { cat ->
-            CatItem(cat, onItemClicked)
+    LazyColumn(
+        content = {
+            items(cats) { cat ->
+                CatItem(cat, onItemClicked)
+            }
         }
-    })
+    )
 }
 
 @Composable
@@ -66,9 +68,11 @@ fun CatItem(cat: Cat, onItemClicked: (cat: Cat) -> Unit) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
-            .clickable(onClick = {
-                onItemClicked(cat)
-            })
+            .clickable(
+                onClick = {
+                    onItemClicked(cat)
+                }
+            )
             .fillMaxWidth()
             .padding(16.dp)
     ) {
