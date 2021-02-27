@@ -17,9 +17,8 @@
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">
+<img src="/results/screenshot_1.png" width="130">&emsp;<img src="/results/screenshot_2.png" width="130">&emsp;<img src="/results/screenshot_3.png" width="130">&emsp;<img src="/results/screenshot_2.png" width="130">&emsp;<img src="/results/video.gif" width="130">
 
-![video](https://github.com/adakoda/cat-adoption/blob/main/results/video.mp4)
 
 ## License
 ```
